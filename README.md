@@ -12,3 +12,11 @@
 <p>filecount paths.txt results.txt</p>
 
 <p>The content of result file CSV formated. And contains only completed searches.</p>
+
+<p>If you have a trouble with encoding follow the advice bellow</p>
+<ul>
+  <li>Click yor mouse right button on the title bar of the cmd.exe window</li>
+  <li>Chose "LucidaConsole" on the font tab</li>
+  <li>Click OK</li>
+  <li>You are welcome</li>
+</ul>
