@@ -28,11 +28,11 @@ public class Validator {
      * @return true if the given path not empty and the file exists.
      */
     public static boolean isFileExist(String path) {
-        return !path.equals("") && Files.exists(Paths.get(path));
+        return !path.equals("") && Files.exists(Paths.get(path)) && new File(path).isFile();
     }
 
     public static boolean isAccessToFile(String path) {
 
-        return !path.equals("") && Files.exists(Paths.get(path));
+        return !path.equals("") && Files.exists(Paths.get(path)) && new File(path).isFile();
     }
 }
